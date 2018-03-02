@@ -20,6 +20,7 @@ class HomeController extends Controller
      */
             public function indexAction(){
 
-                return new Response("Holà");
+                //return new Response("Holà");
+                return $this->render("home/index.html.twig");
             }
 }
