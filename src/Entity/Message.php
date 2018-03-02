@@ -35,12 +35,12 @@ class Message
     private $closed;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\User")
+     * @ORM\ManyToOne(targetEntity="App\Entity\User", fetch="EAGER")
      */
     private $author;
 
     /**
-     * @ORM\ManyToOne(targetEntity="App\Entity\Category")
+     * @ORM\ManyToOne(targetEntity="App\Entity\Category", fetch="EAGER")
      */
     private $category;
 
@@ -151,7 +151,6 @@ class Message
         $this->category = $category;
         return $this;
     }
-
 
 
 }
