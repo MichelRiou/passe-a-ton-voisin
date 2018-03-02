@@ -1,0 +1,14 @@
+{
+  "name": "passe-a-ton-voisin",
+  "description": "Projet Symfony 4",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
